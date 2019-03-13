@@ -16,8 +16,8 @@ environment:
 
 # We always use a 64-bit machine, but can build x86 distributions
 # with the TARGET_ARCH variable.
-platform:
-    - x64
+#platform:
+#    - x64
 
 install:
     # If there is a newer build queued for the same PR, cancel this one.
